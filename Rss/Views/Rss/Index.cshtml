@@ -1,0 +1,13 @@
+﻿@model IEnumerable<Parser.RssItem>
+@{}
+
+<div class="container">
+    <div class="row">
+        @foreach (var item in Model) {
+            <div class="col-xl-6 col-sm-12 pl-2" >
+                <h2><a href="@item.Url">@item.Title</a><span class="date">@item.Date</span></h2>
+                <div>@Html.Raw(item.Description)</div>
+            </div>
+        }
+    </div>
+</div>

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rss", "Rss\Rss.csproj", "{E5A1617C-6C6A-4E03-AF54-CEB7E6B249B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parser", "Parser\Parser.csproj", "{4BDE9D1A-E8B6-46CA-890D-87849668E89B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RssCore", "RssCore\RssCore.csproj", "{18E30D02-B756-44AA-B8AA-2CFFEF20110F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5A1617C-6C6A-4E03-AF54-CEB7E6B249B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5A1617C-6C6A-4E03-AF54-CEB7E6B249B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5A1617C-6C6A-4E03-AF54-CEB7E6B249B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5A1617C-6C6A-4E03-AF54-CEB7E6B249B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BDE9D1A-E8B6-46CA-890D-87849668E89B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BDE9D1A-E8B6-46CA-890D-87849668E89B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BDE9D1A-E8B6-46CA-890D-87849668E89B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BDE9D1A-E8B6-46CA-890D-87849668E89B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18E30D02-B756-44AA-B8AA-2CFFEF20110F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18E30D02-B756-44AA-B8AA-2CFFEF20110F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18E30D02-B756-44AA-B8AA-2CFFEF20110F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18E30D02-B756-44AA-B8AA-2CFFEF20110F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
