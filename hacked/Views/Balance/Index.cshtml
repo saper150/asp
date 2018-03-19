@@ -1,0 +1,14 @@
+﻿@model int
+@{}
+
+<p>your balance is @Model</p>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <label>
+        by
+        <input name="by" type="number"/>
+    </label>
+    <button type="submit">Submit</button>
+}
